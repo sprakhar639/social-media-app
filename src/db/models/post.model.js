@@ -1,4 +1,12 @@
 const mongoose=require('mongoose');
 
 
-con
+const postSchema =new mongoose.Schema({
+    image:String,
+    caption:String
+})
+
+
+const postModel = mongoose.Model("post",postModel)
+
+module.exports=postModel
