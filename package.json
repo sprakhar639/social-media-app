@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/sprakhar639/social-media-app#readme",
   "dependencies": {
+    "@imagekit/nodejs": "^7.10.0",
     "express": "^5.2.1",
-    "mongoose": "^9.8.0"
+    "mongoose": "^9.8.0",
+    "multer": "^2.2.0"
   }
 }
