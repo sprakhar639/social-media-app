@@ -6,14 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprakhar639/social-media-app.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sprakhar639/social-media-app/issues"
+  },
+  "homepage": "https://github.com/sprakhar639/social-media-app#readme",
   "dependencies": {
-    "@imagekit/nodejs": "^7.10.0",
     "express": "^5.2.1",
-    "mongoose": "^9.7.4",
-    "multer": "^2.2.0"
+    "mongoose": "^9.8.0"
   }
 }
